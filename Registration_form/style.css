@@ -1,0 +1,51 @@
+
+*{
+    background-color: #ecff96;
+}
+
+.form1 input[type=text], 
+.personal input[type=email],
+.personal input[type=tel],
+.event input[type=text]
+{
+    background-color: white;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: #9f9f9f;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.clg input[type=text]{
+    background-color: white;
+    width: 400px;
+    padding: 10px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+#select_dept, #city{
+    background-color: white;
+    width: auto;
+    padding: 10px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.eventt{
+    display: flex;
+    padding: 1%;
+}
+/* .eventt input[type=checkbox]{
+    
+} */
+.submit input[type=submit]:focus,
+.submit input[type=reset]:focus,
+.submit input[type=button]:focus{
+    outline: none;
+}

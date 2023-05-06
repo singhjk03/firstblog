@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav p{
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+#logo img{
+    height: 150px;
+    width: 200px;
+    background-color: #223c4f;
+    margin-left: 70px;
+}
+#top{
+    background: url('http://www.rknec.edu/Academics/img/CSE/cse%20banner.jpg') center center/cover no-repeat;
+    height: 350px;
+    width: 100%;
+}
+#top h3{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: normal;
+}
+#mid{
+    margin: 12px 0px;
+    display: flex;
+    flex-direction: row;
+}
+#botleft{
+    margin-right: 80px;
+}
+#botleft ul{
+    list-style: none;
+}
+#botleft ul li{
+    background-color: #223c4f;
+    margin: 5px;
+    color: azure;
+    width: 15em;
+    font-family: 'Roboto', sans-serif;
+    padding:0.7em;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#botleft ul li#blog a{
+    text-decoration: none;
+    color:azure;
+}
+#botleft ul li#blog a:hover{
+    text-decoration: none;
+    color:violet;
+    cursor:pointer;
+}
+#botmid h2{
+    margin-bottom: 40px;
+}
+#ug_pg{
+    background-color: antiquewhite;
+    padding: 1em;
+}
+#ug_pg .course{
+    margin: 20px 0px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    padding: 15px 20px;
+}
+#ug_pg #one{
+    background-color:rgb(102 152 203);
+}
+#ug_pg #two{
+    background-color:rgba(27,188,194,1);
+}
+#ug_pg #three{
+    background-color:rgba(255,105,30,1);
+}
+#ug_pg #four{
+    background-color:rgba(203,153,197,1);
+}
+#ug_pg #first{
+    background-color:rgba(130,200,160,1);
+}
+#ug_pg h3{
+    font-family: cursive;
+    color: brown;
+    font-size: 1rem;
+    text-align: center;
+}
+#botright{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#botright{
+    background: url(http://www.rknec.edu/About/Administration/img/Deans/AvinashJAgrawal.jpg)  center center/cover no-repeat;
+    height: 290px;
+    width:290px;
+}
+#botright h3{
+    position: relative;
+    top: 248px;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.41);
+    color: white;
+}
+/* #botright p::before{
+    position: absolute;
+} */
+#bot
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 350px;
+    padding-right: 200px;
+}
+#bot p{
+    margin: 10px 0px;
+}
+#bot ul li{
+    margin-left:40px;
+    font-size: 1.2rem;
+
+}
+.para{
+    font-size: 1.2rem;
+}
+#bot h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+#Menu{
+    position: fixed;
+    top: 25px;
+    right:0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:azure;
+    background-color:rgba(0, 0, 0, 0.67);
+    padding: 10px 50px;
+}
+#Search{
+    position: fixed;
+    top: 75px;
+    right: 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:azure;
+    background-color:rgba(0, 0, 0, 0.641);
+    padding: 10px 45px;
+}
+#Dep{
+    position: fixed;
+    top: 250px;
+    right: 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:azure;
+    background-color:rgba(127, 255, 212, 0.869);
+    padding: 10px 25px;
+}
+#Place{
+    position: fixed;
+    top:300px;
+    right:0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:azure;
+    background-color:rgba(127, 255, 212, 0.846);
+    padding: 10px 32px;
+}

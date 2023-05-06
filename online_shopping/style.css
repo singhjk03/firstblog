@@ -1,0 +1,37 @@
+.watch{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(149, 245, 133);
+}
+.left{
+    display: flex;
+}
+.img{
+    /* height: 10px; */
+    background-color: rgb(216, 252, 176);
+    padding: 25px;
+}
+.content{
+    padding-right: 100px;
+    padding-left: 50px;
+    background-color: azure;
+}
+.sale{
+    background-color: rgb(255, 68, 68);
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+}
+.out{
+    /* background-color: wheat; */
+    color: red;
+}
+.action{
+    padding: 10px;
+    width: 50%;
+    background-color: chocolate;
+}
+.cart .wishlist{
+    padding: 20px;
+    background-color: rgb(236, 29, 98);
+}
